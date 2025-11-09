@@ -1,0 +1,43 @@
+{
+  "name": "special-regimen-sheet-eim-uc",
+  "version": "1.0.0",
+  "description": "Automated Google Apps Script solution for processing academic records (RAP) for the Special Regimen at the Escuela de Ingeniería Mecánica, Universidad de Camagüey (EIM-UC)",
+  "main": "Code.gs",
+  "scripts": {
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "deploy": "clasp deploy",
+    "open": "clasp open",
+    "logs": "clasp logs"
+  },
+  "keywords": [
+    "google-apps-script",
+    "automation",
+    "google-sheets",
+    "academic-records",
+    "eim-uc",
+    "education",
+    "rap",
+    "special-regimen"
+  ],
+  "author": {
+    "name": "Rafael Alberto Benítez Sánchez",
+    "email": "profrabs@uc.edu.cu"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/profrabs/Special-Regimen-Sheet-EIM-UC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/profrabs/Special-Regimen-Sheet-EIM-UC/issues"
+  },
+  "homepage": "https://github.com/profrabs/Special-Regimen-Sheet-EIM-UC#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
